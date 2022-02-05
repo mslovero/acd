@@ -1,0 +1,43 @@
+
+    nav ul li a{
+      list-style-type: none;
+      font-style: normal;
+      font-weight: lighter;
+     font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      color: #dcdcdc;
+      margin: 20px;
+    
+    }
+    a:link{
+      color: white;
+    }
+    
+    nav ul li a:hover {
+       background: rgb(71, 65, 65);
+       font-family: arial; color: black;   text-decoration: none;
+    
+    }
+    
+    
+    li{ 
+      
+      display:inline-block;
+      font-style: normal;
+      font-weight: lighter;
+      color: aliceblue;
+    }
+    
+    
+    
+    nav ul li a:hover {
+      background: gray;
+      list-style-type: none;
+      font-style: normal;
+      font-weight: lighter;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      color: #dcdcdc;
+    }
+    
+    
