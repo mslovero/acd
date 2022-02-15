@@ -19,7 +19,7 @@ h1 {
   font-weight: 900;
 }
 
-h2 {
+h2, h3, h5 {
   font-style: normal;
   font-weight: lighter;
   font-family: 'Montserrat', sans-serif;
@@ -306,6 +306,25 @@ footer a:link {
     -webkit-transform: translateZ(160px) translateY(-100px);
     transform: translateZ(160px) translateY(-100px);
   }
+}
+
+/*mixins*/
+.formulario {
+  height: 900px;
+  width: 700px;
+}
+
+/* extend*/
+h2, h3, h5 {
+  font-style: normal;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+h3, h5 {
+  font-size: 15px;
+  text-align: start;
 }
 
 @media (max-width: 648px) {
