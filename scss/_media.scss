@@ -1,9 +1,39 @@
-@media (max-width:648px){
+@media (min-width:648px){
    .tituloCard{
        display: flex;
        flex-direction:column;
-       align-items: center;
-       
+       align-items: center;  
+}
+.tituloSection{
+
+    margin: 50px;
+    text-align: center;
     
 }
 }
+
+@media(max-width: 768px)and (orientation: landscape) {
+    
+        .container{
+
+            display: flex;
+            border: solid 5px;
+            width: 100px;
+            height: 200px;
+            margin: 5px 0;
+            flex-direction: row;
+            justify-content: space-around;
+          
+        }
+    }
+    @media(min-width: 992px){
+        footer{
+           padding: 10px;
+            
+            
+        }
+
+
+
+
+    }

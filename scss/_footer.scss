@@ -1,14 +1,55 @@
 footer {
+
+    background-color:$color-menufooter;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    padding: 30px;
+
+    ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    
 
   a:link{
-    color: gray;
+    color: black;
+    display: flex;
+    justify-content: center
+
+    
+  }
+
+  h3{
+    
+  font-style: normal;
+  font-weight: lighter;
+  font-family:'Montserrat', sans-serif;
+  font-size: 20px;
+  text-align:center;
+  color:white;
+
+
+  }
+
+  h4{
+    text-align: center;
+    color:white;
+    
+}
+
+  .iconos{
+
+    height: 30px;
+    width: 30px;
+    
+    
     
     
    
-    
+   
   }
   
-  }
+}
+
+

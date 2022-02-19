@@ -1,0 +1,33 @@
+/*mixins*/
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+
+ footer{
+    @include sizes(100%, 150px );
+ }
+ 
+
+
+
+     
+
+/* extend*/
+h3{
+    
+    font-style: normal;
+    font-weight: lighter;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align:center;
+    color:white;
+  
+  
+    }
+h4{
+    @extend h3;
+    font-size:25px;
+
+
+}
