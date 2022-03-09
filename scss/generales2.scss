@@ -5,7 +5,7 @@
  }
 
  footer{
-    @include sizes(100%, 150px );
+    @include sizes(100%, 200px);
  }
  
 
@@ -21,13 +21,14 @@ h3{
     font-family:'Montserrat', sans-serif;
     font-size: 20px;
     text-align:center;
-    color:white;
+    color:black;
   
   
     }
 h4{
     @extend h3;
     font-size:25px;
+    color: black;
 
 
 }

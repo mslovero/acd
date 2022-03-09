@@ -38,15 +38,21 @@
   <!-- etiqueta header-->
   <header>
 
-    <!-- etiqueta h1 -->
-    <div class="tracking-in-contract-bck-bottom">
-      <h1>Estudio <strong>ACD</strong> </h1>
+    <!-- logo -->
+    <div class="container"> 
+      <div class="tracking-in-contract-bck-bottom">
+        <div class="logoCaja">
+          <img class="logo" src="./imagenes/logo_white_large.png" alt="">
+        </div>
+      </div>
     </div>
+    
 
     <!-- etiqueta nav -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
       <div class="container-fluid">
+        
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,21 +60,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item ">
               <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="./secciones/proyectos.html">Proyectos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./secciones/nosotros.html">Nosotros</a>
+            <li class="nav-item" >
+              <a class="nav-link active" href="./secciones/nosotros.html" aria-current="true">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./secciones/inspiración.html">Inspiración</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./secciones/contacto.html">Contacto</a>
+              <a class="nav-link " href="./secciones/contacto.html">Contacto</a>
             </li>
           </ul>
 
@@ -79,11 +85,13 @@
   </header>
 
 
-  <main>
-    <h2 class="tituloSection ">Acompañamos tu proyecto desde las primeras ideas hasta la materialización.</h2>
+  <main class="container">
+    <h1>Acompañamos tu proyecto desde las primeras ideas hasta la materialización.</h1>
+    <p>En Estudio de Arquitectura, Construcción y Decoración acompañamos el proceso de materialización de los sueños de nuestros clientes. Aportamos ideas innovadoras protegiendo el medioambiente. Nuestro
+      manifiesto es crear espacios funcionales y sustentables.</p>
 
     <!--etiqueta main carousel -->
-    <section class="mainIndex w-90" data-aos="zoom-in-up">
+    <section class="mainIndex w-100" data-aos="zoom-in-up">
 
       <div id="carouselExampleIndicators" class="carousel slide w-90" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -121,36 +129,56 @@
   </main>
 
   </section>
-  <!-- etiqueta article que contiene card -->
-  <article class="articleCard w-90" data-aos="flip-left">
-    <h2 class="tituloCard ">Nuestros Servicios</h2>
-    <section class="container">
-      <div class="card">
-        <div class="card-img">
-          <img class="card-medida" src="./imagenes/amasr-Direccion-de-Obra-Servicios.png" alt="img card">
-        </div>
-        <h4>Dirección de obra</h4>
+  <!-- card -->
 
-      </div>
-      <div class="card">
-        <div class="card-img">
-          <img class="card-medida" src="./imagenes/amasr-Diseno-Arquitectonico-Servicios.png" alt="img card">
-        </div>
-        <h4>Diseño arquitectónico</h4>
+  <article class="caja-card">
+    <section class="container-fluid">
+      <h2>Nuestros Servicios</h2>
 
-      </div>
-      <div class="card">
-        <div class="card-img">
-          <img class="card-medida" src="./imagenes/do.jpg" alt="img card">
-        </div>
-        <h4>Construcción y administación</h4>
+      <div class="row mx-auto w-100">
 
-      </div>
-      <div class="card">
-        <div class="card-img">
-          <img class="card-medida" src="./imagenes/inspiracion interior 360.jpg" alt="img card">
+        <div class=" col-12 col-md-6 col-lg-3 " data-aos="flip-left">
+
+          <div class="card mx-auto">
+            <img src="./imagenes/do.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Dirección de Obra</h4>
+            </div>
+          </div>
+
         </div>
-        <h4>Diseño de interiores</h4>
+        <div class=" col-12 col-md-6 col-lg-3 " data-aos="flip-left">
+
+          <div class="card mx-auto">
+            <img src="./imagenes/amasr-Diseno-Arquitectonico-Servicios.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Diseño Arquitectónico</h4>
+            </div>
+          </div>
+
+        </div>
+        <div class=" col-12 col-md-6 col-lg-3 " data-aos="flip-left">
+
+          <div class="card mx-auto">
+            <img src="./imagenes/amasr-Direccion-de-Obra-Servicios.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Construccíon</h4>
+            </div>
+          </div>
+
+        </div>
+
+        <div class=" col-12 col-md-6 col-lg-3 " data-aos="flip-left">
+
+          <div class="card mx-auto">
+            <img src="./imagenes/inspiracion interior.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-text">Diseño de Interiores</h4>
+            </div>
+          </div>
+
+        </div>
+
 
       </div>
 
@@ -158,20 +186,18 @@
   </article>
 
 
-
   <section class="slide-fwd-top">
 
     <h2>Funcionalidad, Tecnología y Sustentabilidad.</h2>
-    <div class="container w-90">
-      <article class="row">
-        <div class="col-12 col-lg-7">
+    <div class="container ">
+      <article class="row mx-auto" >
+        <div class="col-12 col-md-6 col-lg-6">
           <img src="./imagenes/2092706.jpeg" class="d-block w-100" alt="cocina">
         </div>
 
-        <div class="col-12 col-lg-5">
+        <div class="col-12 col-md-6 col-lg-6">
 
-          <p>Evaluamos el seguimiento y control de los avances, generando ahorros a nuestros clientes. Nuestro
-            manifiesto es crear espacios funcionales y sustentables. Creemos en la importancia de una arquitectura
+          <p>Evaluamos el seguimiento y control de los avances, generando ahorros a nuestros clientes.  Creemos en la importancia de una arquitectura
             conceptual, explorando elementos como la integración entre la obra y la naturaleza, su interacción con la
             luz y su materialidad, para así dar vida a espacios y atmósferas que ofrezcan una experiencia para todos los
             sentidos.
@@ -185,31 +211,34 @@
   <!--aside que contiene iframe-->
 
   <section class="iframe">
+    <div class="container">
 
-    <aside class="row">
+    <aside class="row mx-auto">
       <!-- iframe-->
-      <div class="col-12 col-lg-6">
-        <h2>Color del año 2022</h2>
-        <p>Te adelantamos el color que será tendencia este año</p>
-      </div>
+        <div class="col-12 col-lg-6">
+          <h2>Color del año 2022</h2>
+          <p>Te adelantamos el color que será tendencia este año</p>
+        </div>
       <div class="col-12 col-lg-6">
         <!-- aos animate-->
-        <iframe data-aos="fade-left" class="d-block w-100" width="430" height="315"
+        <iframe class="d-block w-100" width="315" height="315"
           src="https://www.youtube.com/embed/euKv41YqrTM?start=319" title="YouTube video player" frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
       </div>
     </aside>
+  </div>
   </section>
   <!-- footer -->
   <footer>
+    <div class="container">
 
     <h4>Estudio ACD</h4>
 
     <h3>TEL.: 01132609928</h3>
 
 
-
+     
     <ul>
       <li>
         <a href="https://www.facebook.com/" target="_blank" class="footer-social-media w-inline-block">
@@ -240,6 +269,7 @@
           fill="rgba(255,255,255,1)"></path>
       </svg> Almirante Brown, Buenos Aires. Argentina</a>
 
+    </div>
   </footer>
   <!--bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

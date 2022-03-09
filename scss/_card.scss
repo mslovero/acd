@@ -1,48 +1,25 @@
-.card {
+.caja-card{
+  
 
-  display: flex;
-  border: solid 5px;
-  width: 200px;
-  height: 300px;
-  margin: 10px 0;
-  flex-direction: column;
-  align-items: center;
-
+.card{
+  border: solid  6px;
+  border-radius: 10px;
+  color: black;
+  width: 100%;
+  
+  
+.card-img-top{
+  width: 100%;
+  height:200px ;
+}
   .card:hover {
-    border: solid 5px;
-    width: 300px;
-    height: 400px;
-    box-shadow: 10px 15px darkslategrey;
-
-    .card-img {
-      height: 90%;
-      width: 100%;
-
-      .card-medida {
-        width: 100%;
-        height: 100%;
-
-        .tituloCard {
-          font-style: normal;
-          font-weight: lighter;
-          font-family: 'Montserrat', sans-serif;
-          font-size: 80px;
-          text-align: center;
-          color: black;
+    border: solid 6px;  
+    height: auto;
+    box-shadow: 10px 10px darkslategrey;
 
 
-
-
-        }
-
-      }
-
-    }
 
   }
-
+  
 }
-
-
-
-/*fin de card*/
+}

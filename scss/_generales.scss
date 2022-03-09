@@ -7,9 +7,26 @@
 body{
   background-color: azure;
   height: 100vh;
+  width: 100%;
   font-family:'Montserrat', sans-serif;
   
 }
+h1{
+  
+    font-family:'Montserrat', sans-serif;
+   font-size: 40px;
+   color: black;
+   text-align: center;
+   font-style:italic;
+   margin: 40px;
+  
+   
+  
+  
+  
+  }
+
+
 
 
 p{
@@ -31,25 +48,7 @@ h4,.asideNosotros{
   text-align:center;
   color: black;
 }
-/*titulo de index*/
-.tituloSection{
-  font-family:'Montserrat', sans-serif;
- font-size: 40px;
- color: black;
- text-align: center;
- margin-top: 100px;
- margin-bottom: 100px;
- margin-right: 150px;
- margin-left: 80px
- 
 
-
-
-}
-
-
-  
-  
 
 /* iframe de index*/
 .iframe{
@@ -61,68 +60,15 @@ h4,.asideNosotros{
 }
 
 
-/* card de index*/
 
 
-.articleCard{
 
-  background-color: rgba(128, 128, 128, 0.794);
-  margin: 100px;
-  padding: 100px;
-  
-
-
-}
-.card{
-    display: flex;
-    border: solid 5px;
-    width: 200px;
-    height: 300px;
-    margin: 10px 0;
-    flex-direction: column;
-    align-items: center;
-    
- 
-
-}
-.card:hover{
-   
-   border: solid 5px;
-   width: 300px;
-   height: 400px;
-   box-shadow: 10px 15px darkslategrey;
-}
-.card-img{
-    height: 90%;
-    width: 100%;
-}
-.card-medida{
-    width: 100%;
-    height: 100%;
-}
-.container{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content:space-around;
-   margin: 30px;
-   
-}
-.tituloCard{
-   font-style: normal;
-   font-weight: lighter;
-   font-family:'Montserrat', sans-serif;
-   font-size: 80px;
-   text-align: center;
-   color: black;
-
-}
-/*fin de card*/
 
 
 .slide-fwd-top p{
 
   
-  font-style: normal;
+    font-style: normal;
     font-weight: lighter;
     font-family:'Montserrat', sans-serif;
     font-size: 20px;
@@ -130,22 +76,6 @@ h4,.asideNosotros{
     margin-top: 60px;
     
 
-}
-
-.articleNosotros{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px;
-
-  
-  
-}
-.nosotros{
-
-  text-align: center ;
-  margin: 80px ;
-  
 }
 
 
