@@ -134,18 +134,14 @@ header .logoCaja .logo {
 header .nav-link {
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   margin: 10px;
   color: white;
-  font-weight: 600;
+  font-weight: 300px;
 }
 
-header nav li {
-  font-style: italic;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
-  -webkit-box-shadow: 1opx color black;
-          box-shadow: 1opx color black;
+header .navbar-dark .navbar-nav .nav-link.active {
+  color: goldenrod;
 }
 
 header nav li:hover {
@@ -440,7 +436,7 @@ h4 {
   color: black;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 648px) {
   header {
     width: 100%;
     display: -webkit-box;
@@ -531,7 +527,7 @@ h4 {
   }
 }
 
-@media (min-width: 768px) and (orientation: landscape) {
+@media (max-width: 1024px) and (min-width: 700px) {
   .card {
     border: solid 3px;
     border-radius: 10px;
@@ -553,7 +549,7 @@ h4 {
   }
   .tituloInspiracion {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     color: black;
     text-align: center;
   }
@@ -561,7 +557,7 @@ h4 {
 
 @media (min-width: 992px) {
   footer {
-    padding: 10px;
+    margin-top: 40px;
   }
 }
 /*# sourceMappingURL=estilo.css.map */

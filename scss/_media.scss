@@ -121,7 +121,7 @@
 
 
 
-@media(max-width: 700px) and (min-width: 400px) {
+@media(max-width: 1024px) and (min-width: 700px) {
 
 
   .card {
@@ -148,23 +148,26 @@
 
   .tituloInspiracion {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 25px;
     color: black;
     text-align: center;
 
   }
 
+  
 
 }
 
 
+@media(min-width: 992px){
 
-
-@media(min-width: 992px) {
-  footer {
-    padding: 10px;
-
-
-  }
+ footer{
+   margin-top: 40px;
+ }
 
 }
+
+
+  
+
+
