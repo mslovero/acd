@@ -1,39 +1,170 @@
-@media (min-width:648px){
-   .tituloCard{
-       display: flex;
-       flex-direction:column;
-       align-items: center;  
-}
-.tituloSection{
+@media (max-width: 700px) {
 
-    margin: 50px;
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  header .logoCaja {
+    width: 100px;
+    height: 100px;
+  }
+
+  footer {
+    height: auto
+  }
+
+
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
     text-align: center;
-    
+
+
+
+
+
+  }
+
+  h2 {
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+
+  }
+
+  h4 {
+    font-size: 15px;
+    color: black;
+  }
+
+
+  .tituloInspiracion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .card {
+    border: solid 3px;
+    border-radius: 10px;
+    color: black;
+    margin: 5px
+  }
+
+
+
+  .card:hover {
+    border: solid 3px;
+    height: auto;
+    box-shadow: 5px 5px darkslategrey;
+
+
+
+  }
+
+
+  .slide-fwd-top p {
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+
+  .iframe {
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+    grid-template-areas:
+      "foto1 foto2"
+      "foto3 foto4";
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+
+
 }
+
+
+
+
+
+
+@media(min-width: 768px)and (orientation: landscape) {
+
+
+  .card {
+    border: solid 3px;
+    border-radius: 10px;
+    color: black;
+    margin: 15px
+  }
+
+  .slide-fwd-top p {
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .tituloInspiracion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+
+  }
+
+
 }
 
-@media(max-width: 768px)and (orientation: landscape) {
-    
-        .container{
-
-            display: flex;
-            border: solid 5px;
-            width: 100px;
-            height: 200px;
-            margin: 5px 0;
-            flex-direction: row;
-            justify-content: space-around;
-          
-        }
-    }
-    @media(min-width: 992px){
-        footer{
-           padding: 10px;
-            
-            
-        }
 
 
 
+@media(min-width: 992px) {
+  footer {
+    padding: 10px;
 
-    }
+
+  }
+
+}

@@ -9,7 +9,17 @@
 body {
   background-color: azure;
   height: 100vh;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  margin: 40px;
 }
 
 p {
@@ -30,18 +40,6 @@ h4, .asideNosotros {
   color: black;
 }
 
-/*titulo de index*/
-.tituloSection {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  color: black;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-}
-
 /* iframe de index*/
 .iframe {
   display: -webkit-box;
@@ -53,69 +51,6 @@ h4, .asideNosotros {
   margin: 40px;
 }
 
-/* card de index*/
-.articleCard {
-  background-color: rgba(128, 128, 128, 0.794);
-  margin: 100px;
-  padding: 100px;
-}
-
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: solid 5px;
-  width: 200px;
-  height: 300px;
-  margin: 10px 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.card:hover {
-  border: solid 5px;
-  width: 300px;
-  height: 400px;
-  -webkit-box-shadow: 10px 15px darkslategrey;
-          box-shadow: 10px 15px darkslategrey;
-}
-
-.card-img {
-  height: 90%;
-  width: 100%;
-}
-
-.card-medida {
-  width: 100%;
-  height: 100%;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 30px;
-}
-
-.tituloCard {
-  font-style: normal;
-  font-weight: lighter;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
-  text-align: center;
-  color: black;
-}
-
-/*fin de card*/
 .slide-fwd-top p {
   font-style: normal;
   font-weight: lighter;
@@ -123,25 +58,6 @@ h4, .asideNosotros {
   font-size: 20px;
   text-align: center;
   margin-top: 60px;
-}
-
-.articleNosotros {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 20px;
-}
-
-.nosotros {
-  text-align: center;
-  margin: 80px;
 }
 
 .formulario {
@@ -196,77 +112,71 @@ aside {
 }
 
 header {
-  background-color: #4b4a4a;
+  background-color: #2c2b2b;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 30px;
 }
 
-header h1 {
-  font-style: italic;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
-  color: white;
-  font-weight: 900;
+header .logoCaja {
+  width: 200px;
+  height: 200px;
+}
+
+header .logoCaja .logo {
+  width: 100%;
+  height: auto;
 }
 
 header .nav-link {
   font-style: italic;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  margin: 10px;
+  color: white;
+  font-weight: 600;
 }
 
-.card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border: solid 5px;
-  width: 200px;
-  height: 300px;
-  margin: 10px 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.card .card:hover {
-  border: solid 5px;
-  width: 300px;
-  height: 400px;
-  -webkit-box-shadow: 10px 15px darkslategrey;
-          box-shadow: 10px 15px darkslategrey;
-}
-
-.card .card:hover .card-img {
-  height: 90%;
-  width: 100%;
-}
-
-.card .card:hover .card-img .card-medida {
-  width: 100%;
-  height: 100%;
-}
-
-.card .card:hover .card-img .card-medida .tituloCard {
-  font-style: normal;
-  font-weight: lighter;
+header nav li {
+  font-style: italic;
   font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
-  text-align: center;
-  color: black;
+  font-size: 20px;
+  -webkit-box-shadow: 1opx color black;
+          box-shadow: 1opx color black;
 }
 
-/*fin de card*/
+header nav li:hover {
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  -webkit-box-shadow: 1px color black;
+          box-shadow: 1px color black;
+}
+
+.caja-card .card {
+  border: solid  6px;
+  border-radius: 10px;
+  color: black;
+  width: 100%;
+}
+
+.caja-card .card .card-img-top {
+  width: 100%;
+  height: 200px;
+}
+
+.caja-card .card .card:hover {
+  border: solid 6px;
+  height: auto;
+  -webkit-box-shadow: 10px 10px darkslategrey;
+          box-shadow: 10px 10px darkslategrey;
+}
+
 footer {
-  background-color: #4b4a4a;
+  background-color: #2c2b2b;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-style: italic;
@@ -318,7 +228,7 @@ footer .iconos {
   position: relative;
   color: black;
   text-align: left;
-  margin: 200px;
+  margin: 50px;
 }
 
 /*animista*/
@@ -456,49 +366,6 @@ footer .iconos {
   }
 }
 
-@media (min-width: 648px) {
-  .tituloCard {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .tituloSection {
-    margin: 50px;
-    text-align: center;
-  }
-}
-
-@media (max-width: 768px) and (orientation: landscape) {
-  .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    border: solid 5px;
-    width: 100px;
-    height: 200px;
-    margin: 5px 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
-
-@media (min-width: 992px) {
-  footer {
-    padding: 10px;
-  }
-}
-
 .grid {
   display: -ms-grid;
   display: grid;
@@ -554,7 +421,7 @@ footer .iconos {
 
 /*mixins*/
 footer {
-  height: 150px;
+  height: 200px;
   width: 100%;
 }
 
@@ -565,10 +432,136 @@ h3, h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 h4 {
   font-size: 25px;
+  color: black;
+}
+
+@media (max-width: 700px) {
+  header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  header .logoCaja {
+    width: 100px;
+    height: 100px;
+  }
+  footer {
+    height: auto;
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  h2 {
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+  }
+  h4 {
+    font-size: 15px;
+    color: black;
+  }
+  .tituloInspiracion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    text-align: center;
+  }
+  .card {
+    border: solid 3px;
+    border-radius: 10px;
+    color: black;
+    margin: 5px;
+  }
+  .card:hover {
+    border: solid 3px;
+    height: auto;
+    -webkit-box-shadow: 5px 5px darkslategrey;
+            box-shadow: 5px 5px darkslategrey;
+  }
+  .slide-fwd-top p {
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .iframe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (50%)[2];
+        grid-template-columns: repeat(2, 50%);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 100%;
+        grid-template-areas: "foto1 foto2" "foto3 foto4";
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+  }
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+  .card {
+    border: solid 3px;
+    border-radius: 10px;
+    color: black;
+    margin: 15px;
+  }
+  .slide-fwd-top p {
+    font-style: normal;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+  }
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  .tituloInspiracion {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  footer {
+    padding: 10px;
+  }
 }
 /*# sourceMappingURL=estilo.css.map */
